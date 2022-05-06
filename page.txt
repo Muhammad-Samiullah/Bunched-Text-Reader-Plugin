@@ -1,0 +1,56 @@
+<div id="bunchread"  style="display: none">
+
+
+<div id="string">
+
+	
+	<div id="top-buttons" style="height: 35px; margin-top: -7px; margin-right: 2px;">
+		<div style="margin-top: -16px">
+			<button id="undo"><i class="fas fa-undo"></i></button>
+		</div>
+		<div id="emoji" style="font-size: 23px">
+			<i id="happy" class="fas fa-grin"></i>
+			<i id="sad" class="fas fa-frown" style="display: none"></i>
+			<i id="complete" class="fas fa-laugh" style="display: none"></i>
+		</div>
+	</div>
+	
+
+	<textarea id="bunched-reader-text-area" style="resize: none; width: 99.5%; word-break: break-all;" rows="6" readonly>
+	</textarea>
+	
+	
+	
+	<div class="bunched-text-actions" style=" margin: 5px; margin-top: -20px;" style='background-color: rgb(255,233,113)'>
+		<div class="left-arrow" style="margin-top: -20px">
+			<button style='background-color: rgb(255,233,113)'><i class="fas fa-chevron-left"></i></button>
+		</div>
+		<div class="bunched-text-keyboard" style="display: flex">
+			<button id="button" style='background-color: rgb(255,233,113)'>Button</button>
+			<button id="capital" style='background-color: rgb(255,233,113); display: none'>Capital</button>
+			<button id="dot" style="display: none">.</button>
+			<button id="comma" style="display: none">,</button>
+			<button id="question" style="display: none">?</button>
+			<button id="exclamatory" style="display: none">!</button>
+			<button id="space" style="display: none">Space</button>
+			<button id="punctuation" style="display: none">"</button>
+			<button id="punc" style="display: none">'</button>
+			<button id="and" style="display: none">&</button>
+			<button id="left-bracket" style="display: none">(</button>
+			<button id="right-bracket" style="display: none">)</button>
+			<button id="dash" style="display: none">-</button>
+			<button id="colon" style="display: none">:</button>
+			<button id="semicolon" style="display: none">;</button>
+			<button id="slash" style="display: none">/</button>
+		</div>
+		<div class="right-arrow" style="margin-top: -20px">
+			<button style='background-color: rgb(255,233,113)'><i class="fas fa-chevron-right"></i></button>
+		</div>
+	</div>
+	
+	
+	
+</div>
+
+
+</div>
